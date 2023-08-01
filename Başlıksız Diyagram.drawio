@@ -1,82 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T08:28:20.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="P7gRAchFikVr5wcfyonF" version="21.6.2" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1674" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-08-01T14:24:17.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.2" etag="xLx0K7JliN_KIF284SUV" type="github">
+  <diagram name="Sayfa -1" id="iDHTHCNPkWb9gl-qf2NE">
+    <mxGraphModel>
       <root>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="3B399eauovrUwrFBf5yU-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-0" target="3B399eauovrUwrFBf5yU-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-0" value="Metot, WebSiparisKontrol() adıyla başlar ve web siparişlerini belirli şartlara göre işler." style="rounded=1;whiteSpace=wrap;html=1;arcSize=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="495" y="-1146.25" width="265" height="126.25" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-3" target="3B399eauovrUwrFBf5yU-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="-650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-3" value="Metot, DB.Siparis.WebSiparisListesi() yöntemini kullanarak henüz entegre edilmemiş siparişlerin bir listesini alır (Entegre Olmayan Siparişleri getir)." style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="87.5" y="-1146.25" width="258.75" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-5" target="3B399eauovrUwrFBf5yU-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="-440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-5" value="Eğer listede siparişler varsa (Liste), kod her bir siparişi tek tek işlemek için döngüye girer." style="rounded=1;whiteSpace=wrap;html=1;arcSize=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="87.5" y="-950" width="257.5" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-7" target="3B399eauovrUwrFBf5yU-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-7" value="Her bir sipariş için, siparişin cari bilgilerini almak için DB.Cari.WebCariGetir(item.userID, item.SentezSirketId) yöntemini kullanır." style="rounded=1;whiteSpace=wrap;html=1;arcSize=25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="76.25" y="-730" width="280" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-9" target="3B399eauovrUwrFBf5yU-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-9" value="Eğer ödeme tipi &quot;Havale&quot; ise, DB.Siparis.HavaleOdemeMi(item.ID, ModelCari) yöntemini çağırarak işlemi yapar ve sonraki siparişe geçer (diğer işlemleri atlamak için continue kullanılır)." style="whiteSpace=wrap;html=1;rounded=1;arcSize=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="-530" width="272.5" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-15" target="3B399eauovrUwrFBf5yU-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-15" value="Eğer ödeme tipi &quot;Havale&quot; değilse, SiparisinCarisiniKontrolEt(ModelCari) adında başka bir metodu çağırarak siparişin carisini kontrol eder." style="whiteSpace=wrap;html=1;rounded=1;arcSize=29;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="-530" width="260" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-17" target="3B399eauovrUwrFBf5yU-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-17" value="Cari bilgileri güncellenmiş şekilde tekrar çağırmak için ModelCari = DB.Cari.WebCariGetir(item.userID, item.SentezSirketId) satırını kullanır." style="whiteSpace=wrap;html=1;rounded=1;arcSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="475" y="-310" width="250" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-19" target="3B399eauovrUwrFBf5yU-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-19" value="Eğer carinin bir karşılığı Sentezde (ModelCari.sentezID != 0), siparişi sisteme eklemek için DB.Siparis.SiparisEkle(item, ModelCari) yöntemini kullanır." style="whiteSpace=wrap;html=1;rounded=1;arcSize=34;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72.5" y="-310" width="260" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-21" target="3B399eauovrUwrFBf5yU-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-21" value="Sipariş eklenirken aynı zamanda siparişe ait satırlar da işlenir. DB.Siparis.SiparisSatirlariGetir(item.randStr, item.SentezSirketId) yöntemiyle siparişe ait satırlar alınır." style="whiteSpace=wrap;html=1;rounded=1;arcSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="75" y="-70" width="255" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-23" target="3B399eauovrUwrFBf5yU-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-23" value="Her satır için, DB.Siparis.SiparisSatirlariEkle(satir, item, ItemOrderNo, SentezSiparisId) yöntemi kullanılarak satırlar eklenir ve ilgili güncellemeler yapılır." style="whiteSpace=wrap;html=1;rounded=1;arcSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="67.5" y="160" width="270" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3B399eauovrUwrFBf5yU-25" target="3B399eauovrUwrFBf5yU-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-25" value="Son olarak, web sipariş tablosundaki sentezID ve fiş ID&#39;si güncellenir: DB.Urun.WebKomutCalistir(&quot;update sepet set sentezID=&quot; + SatirId + &quot; where ID=&quot; + satir.ID, item.SentezSirketId) ve DB.Urun.WebKomutCalistir(&quot;update siparis set sentezID=&quot; + SentezSiparisId + &quot; where ID=&quot; + item.ID, item.SentezSirketId)." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="56.25" y="390" width="292.5" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="3B399eauovrUwrFBf5yU-27" value="İşlemler tüm siparişler için tamamlandıktan sonra, metot sona erer." style="whiteSpace=wrap;html=1;rounded=1;arcSize=33;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="475" y="380" width="270" height="160" as="geometry" />
-        </mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
