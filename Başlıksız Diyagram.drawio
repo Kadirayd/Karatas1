@@ -1,29 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T08:22:44.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="w7P98C3bYBSDI5szzcLn" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T08:53:29.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="_fftt4Hd2YgUa8zrmZIz" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="_sI9fXl2GTtRrqDUZF84-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-0" target="_sI9fXl2GTtRrqDUZF84-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-0" target="_sI9fXl2GTtRrqDUZF84-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-18" value="Ürün Grubu Alınır (RecId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_sI9fXl2GTtRrqDUZF84-2">
+          <mxGeometry x="0.48" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_sI9fXl2GTtRrqDUZF84-0" value="BudgetInventoryGroup" style="ellipse;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="40" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-1" value="BudgetInventoryCategory" style="rhombus;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="210" width="150" height="120" as="geometry" />
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-1" target="_sI9fXl2GTtRrqDUZF84-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="210" width="170" height="140" as="geometry" />
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-19" value="Ürünün Grup RecId&#39;i ile eşleşen InventoryGroupId&#39;i alarak ilgili Kategoriyi belirleriz." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_sI9fXl2GTtRrqDUZF84-15">
+          <mxGeometry x="-0.0167" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-1" value="BudgetInventoryCategory" style="rhombus;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="210" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-20" value="Ürünün Grup&amp;nbsp; RecId&#39;i ile eşleşen InventoryGroupId&#39;i alarak ilgili Grup Model adı bulunur" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_sI9fXl2GTtRrqDUZF84-10">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-3" value="BudgetInventoryGroupModel&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="470" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="_sI9fXl2GTtRrqDUZF84-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_sI9fXl2GTtRrqDUZF84-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-9" value="BudgetInventory&lt;br&gt;(Ürünün Bulunduğu kategori Id&amp;nbsp; Grup modelId ve Grup Id si tutulur bu tabloda )" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="46.25" y="680" width="257.5" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
