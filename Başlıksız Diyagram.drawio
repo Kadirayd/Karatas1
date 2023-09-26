@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T09:19:48.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4ZBg1u7zorSFTM3cm2Aj" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T09:21:52.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5I7o9FQFvu7XG3AI4fT_" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2261" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="_sI9fXl2GTtRrqDUZF84-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-9" value="BudgetInventory&lt;br&gt;(Ürünün Bulunduğu kategori Id&amp;nbsp; Grup modelId ve Grup Id si tutulur bu tabloda )" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-9" value="BudgetInventory&lt;br&gt;(Ürünün Bulunduğu kategori Id&amp;nbsp; Grup modelId ve Grup Id si tutulduğu tablo)" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="46.25" y="680" width="257.5" height="220" as="geometry" />
         </mxCell>
       </root>
