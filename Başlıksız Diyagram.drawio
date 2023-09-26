@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T08:15:58.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8T0qlPc6NhfHvShPtQWg" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T08:22:33.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CsYkNuthupPKHoxLnd4a" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,23 @@
         <mxCell id="_sI9fXl2GTtRrqDUZF84-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-0" target="_sI9fXl2GTtRrqDUZF84-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-0" value="BudgetInventoryGroup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-0" target="_sI9fXl2GTtRrqDUZF84-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-0" value="BudgetInventoryGroup" style="ellipse;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="40" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_sI9fXl2GTtRrqDUZF84-1" value="BudgetInventoryCategory" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="230" width="150" height="120" as="geometry" />
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-1" value="BudgetInventoryCategory" style="rhombus;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="210" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="210" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_sI9fXl2GTtRrqDUZF84-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_sI9fXl2GTtRrqDUZF84-3" target="_sI9fXl2GTtRrqDUZF84-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
